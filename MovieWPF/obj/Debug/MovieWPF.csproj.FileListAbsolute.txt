@@ -1,0 +1,7 @@
+C:\Users\SLAMANI\source\repos\MovieNet\MovieWPF\obj\Debug\MovieWPF.csprojAssemblyReference.cache
+C:\Users\SLAMANI\source\repos\MovieNet\MovieWPF\obj\Debug\MainWindow.g.cs
+C:\Users\SLAMANI\source\repos\MovieNet\MovieWPF\obj\Debug\Views\HomeView.g.cs
+C:\Users\SLAMANI\source\repos\MovieNet\MovieWPF\obj\Debug\Views\LoginView.g.cs
+C:\Users\SLAMANI\source\repos\MovieNet\MovieWPF\obj\Debug\App.g.cs
+C:\Users\SLAMANI\source\repos\MovieNet\MovieWPF\obj\Debug\MovieWPF_MarkupCompile.cache
+C:\Users\SLAMANI\source\repos\MovieNet\MovieWPF\obj\Debug\MovieWPF_MarkupCompile.lref

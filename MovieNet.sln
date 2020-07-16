@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieNet", "MovieNet\MovieNet.csproj", "{097D52D7-14B6-41F7-9583-D0AD3EE05577}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieNet.Data", "MovieNet.Data\MovieNet.Data.csproj", "{4EE9917C-40F5-4424-8FC3-76344D94089D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieWPF", "MovieWPF\MovieWPF.csproj", "{569131AC-D32B-4879-BBA8-0974B7159046}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{097D52D7-14B6-41F7-9583-D0AD3EE05577}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{097D52D7-14B6-41F7-9583-D0AD3EE05577}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{097D52D7-14B6-41F7-9583-D0AD3EE05577}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{097D52D7-14B6-41F7-9583-D0AD3EE05577}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EE9917C-40F5-4424-8FC3-76344D94089D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EE9917C-40F5-4424-8FC3-76344D94089D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EE9917C-40F5-4424-8FC3-76344D94089D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EE9917C-40F5-4424-8FC3-76344D94089D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{569131AC-D32B-4879-BBA8-0974B7159046}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{569131AC-D32B-4879-BBA8-0974B7159046}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{569131AC-D32B-4879-BBA8-0974B7159046}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{569131AC-D32B-4879-BBA8-0974B7159046}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {06DB3DBB-F5E7-4C2A-90F0-54559067B837}
+	EndGlobalSection
+EndGlobal

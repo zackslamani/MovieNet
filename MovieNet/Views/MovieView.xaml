@@ -1,0 +1,49 @@
+﻿<UserControl x:Class="MovieNet.Views.MovieView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:MovieNet.Views"
+             mc:Ignorable="d">
+    <Grid Margin="5,8,8,0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+        </Grid.RowDefinitions>
+        <TextBlock Text="Movie Management" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" FontSize="30" FontWeight="Bold" HorizontalAlignment="Center" Margin="5,8"/>
+        <TextBlock Text="Entre Id" Grid.Row="1" Grid.Column="0" FontSize="20" Margin="5,8" Padding="3" />
+        <TextBlock Text="Entre Title" Grid.Row="2" Grid.Column="0" FontSize="20" Margin="5,8" Padding="3" />
+        <TextBlock Text="Entre Resume" Grid.Row="3" Grid.Column="0"  FontSize="20" Margin="5,8" Padding="3" />
+        <TextBlock Text="Entre Genre" Grid.Row="4" Grid.Column="0" FontSize="20" Margin="5,8" Padding="3" />
+        <TextBox Name="txtId" Grid.Row="1" Grid.Column="1" Margin="5,8" Padding="3" Text="{Binding Path=CurrentMovie.Id, Mode=TwoWay}"/>
+        <TextBox Name="txtTitre" Grid.Row="2" Grid.Column="1" Margin="5,8" Padding="3" Text="{Binding Path=CurrentMovie.Titre, Mode=TwoWay}"/>
+        <TextBox Name="txtResume" Grid.Row="3" Grid.Column="1" Margin="5,8" Padding="3" Text="{Binding Path=CurrentMovie.Resume, Mode=TwoWay}"/>
+        <TextBox Name="txtGenre" Grid.Row="4" Grid.Column="1" Margin="5,8" Padding="3" Text="{Binding Path=CurrentMovie.Genre, Mode=TwoWay}"/>
+
+        <StackPanel Orientation="Horizontal" Grid.Row="5" Grid.Column="1" Margin="5,8">
+            <Button Name="btnAdd" Content="ADD" Margin="5,8" Padding="3" Command="{Binding Path=SaveCommand}" />
+            <Button Name="btnsearch" Content="SEARCH" Margin="5,8" Padding="3" Command="{Binding Path=SearchCommand}"/>
+            <Button Name="btnUpdate" Content="UPDATE" Margin="5,8" Padding="3" Command="{Binding Path=UpdateCommand}"/>
+            <Button Name="btnDelete" Content="DELETE" Margin="5,8" Padding="3" Command="{Binding Path=DeleteCommand}"/>
+        </StackPanel>
+        <TextBlock Name="txtBlockMessage" Grid.Row="5" Grid.Column="1" Margin="5,8" LineHeight="11" Text="{Binding Path=Message}" />
+        <DataGrid Name="dgMovies" AutoGenerateColumns="False" Grid.Row="6" Grid.Column="1" SelectionChanged="dgMovies_SelectionChanged" Margin="5.333,69.667,4.667,-53.667" ItemsSource="{Binding Path=MoviesList,Mode=TwoWay}">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Movie Id" Width="auto" Binding="{Binding Path=Id}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Movie Titre" Width="auto" Binding="{Binding Path=Titre}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Movie Resume" Width="auto" Binding="{Binding Path=Resume}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Movie Genre" Width="auto" Binding="{Binding Path=Genre}"></DataGridTextColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+
+    </Grid>
+</UserControl>

@@ -1,0 +1,9 @@
+C:\Users\SLAMANI\source\repos\MovieNet\MovieNet.Data\bin\Debug\netstandard2.0\MovieNet.Data.deps.json
+C:\Users\SLAMANI\source\repos\MovieNet\MovieNet.Data\bin\Debug\netstandard2.0\MovieNet.Data.dll
+C:\Users\SLAMANI\source\repos\MovieNet\MovieNet.Data\obj\Debug\netstandard2.0\MovieNet.Data.csprojAssemblyReference.cache
+C:\Users\SLAMANI\source\repos\MovieNet\MovieNet.Data\obj\Debug\netstandard2.0\MovieNet.Data.AssemblyInfoInputs.cache
+C:\Users\SLAMANI\source\repos\MovieNet\MovieNet.Data\obj\Debug\netstandard2.0\MovieNet.Data.AssemblyInfo.cs
+C:\Users\SLAMANI\source\repos\MovieNet\MovieNet.Data\bin\Debug\netstandard2.0\MovieNet.Data.pdb
+C:\Users\SLAMANI\source\repos\MovieNet\MovieNet.Data\obj\Debug\netstandard2.0\MovieNet.Data.csproj.CoreCompileInputs.cache
+C:\Users\SLAMANI\source\repos\MovieNet\MovieNet.Data\obj\Debug\netstandard2.0\MovieNet.Data.dll
+C:\Users\SLAMANI\source\repos\MovieNet\MovieNet.Data\obj\Debug\netstandard2.0\MovieNet.Data.pdb
